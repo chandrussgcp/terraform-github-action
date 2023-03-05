@@ -9,7 +9,7 @@ on:
 
 env:
    GOOGLE_CREDENTIALS: ${{secrets.GOOGLE_CREDENTIALS}}
-   ROOT_PATH: '../../src/terraform'   
+   ROOT_PATH: '../src/terraform'   
 
 jobs:
   terraform:
